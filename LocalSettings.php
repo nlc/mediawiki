@@ -132,5 +132,3 @@ wfLoadExtension( 'Bootstrap' );
 
 wfLoadSkin( 'Aether' );
 wfLoadSkin( 'chameleon' );
-
-$wgShowExceptionDetails = true;
