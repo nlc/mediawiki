@@ -129,4 +129,4 @@ $wgDefaultSkin = 'Medik';
 # Add more configuration options below.
 
 wfLoadSkin( 'Aether' );
-wfLoadSkin( 'Mekik' );
+wfLoadSkin( 'Medik' );
