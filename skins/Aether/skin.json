@@ -1,0 +1,47 @@
+{
+    "name": "Aether",
+    "author": [
+        "Ingo Malchow",
+        "Ken Vermette",
+        "Carl Schwan"
+    ],
+    "url": "",
+    "requires": {
+        "MediaWiki": ">= 1.39.0"
+    },
+    "descriptionmsg": "Aether descr",
+    "namemsg": "skinname-aether",
+    "license-name": "CC-BY-SA-4.0",
+    "type": "skin",
+    "ConfigRegistry": {
+        "aether": "GlobalVarConfig::newInstance"
+    },
+    "ValidSkinNames": {
+        "aether": {
+            "class": "SkinAether",
+            "args": [
+                {
+                    "name": "aether",
+                    "bodyOnly": true,
+                    "responsive": true,
+                    "template": "AetherTemplate",
+                    "scripts": [ "skins.aether" ]
+                }
+            ]
+        }
+    },
+    "MessagesDirs": {
+        "Aether": [
+            "i18n"
+        ]
+    },
+    "AutoloadClasses": {
+        "SkinAether": "SkinAether.php",
+        "AetherTemplate": "AetherTemplate.php"
+    },
+    "config": {
+        "AetherUseSimpleSearch": true,
+        "AetherResponsive": false
+    },
+    "manifest_version": 1
+}
