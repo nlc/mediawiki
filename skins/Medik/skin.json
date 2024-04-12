@@ -1,0 +1,113 @@
+{
+	"name": "Medik",
+	"namemsg": "skinname-medik",
+	"version": "5.1.3",
+	"author": "Petr Kajzar",
+	"url": "https://www.mediawiki.org/wiki/Skin:Medik",
+	"description": "Simple and clean skin based on the Bootstrap library",
+	"descriptionmsg": "medik-desc",
+	"license-name": "CC0-1.0",
+	"type": "skin",
+	"ValidSkinNames": {
+		"medik": {
+			"class": "SkinMedik",
+			"args": [
+				{
+					"name": "medik",
+					"bodyOnly": true,
+					"template": "MedikTemplate",
+					"responsive": true
+				}
+			]
+		}
+	},
+	"requires": {
+		"MediaWiki": ">= 1.39.0"
+	},
+	"MessagesDirs": {
+		"Medik": [
+			"i18n"
+		]
+	},
+	"config": {
+		"MedikColor": {
+			"value": "#ffbe00",
+			"description": "Default color of the wiki theme."
+		},
+		"MedikContentWidth": {
+			"value": "default",
+			"description": "Extend the content to the full width on XL screens."
+		},
+		"MedikLogoWidth": {
+			"value": "default",
+			"description": "Set the logo width."
+		},
+		"MedikMobileSitename": {
+			"value": null,
+			"description": "Short sitename for mobile screens."
+		},
+		"MedikResponsive": {
+			"value": true,
+			"description": "Enable responsive Medik design."
+		},
+		"MedikShowLogo": {
+			"value": "none",
+			"description": "Show logo in the header bar."
+		},
+		"MedikUseLogoWithoutText" : {
+			"value": false,
+			"description": "Show only logo without text in the navbar."
+		}
+	},
+	"ResourceModules": {
+		"skins.medik": {
+			"class": "MediaWiki\\ResourceLoader\\SkinModule",
+			"features": {
+				"content-links": true,
+				"content-links-external": true,
+				"content-media": true,
+				"interface-message-box": true,
+				"interface-category": true,
+				"content-tables": true,
+				"i18n-ordered-lists": true,
+				"i18n-all-lists-margins": true,
+				"i18n-headings": true,
+				"elements": true,
+				"interface": true,
+				"logo": true
+			},
+			"styles": {
+				"resources/libraries/bootstrap.min.css": {
+					"media": "screen"
+				},
+				"resources/screen.css": {
+					"media": "screen"
+				},
+				"resources/print.css": {
+					"media": "print"
+				},
+				"resources/desktop.css": {
+					"media": "screen and (min-width: 768px)"
+				},
+				"resources/mobile.css": {
+					"media": "screen and (max-width: 767px)"
+				}
+			}
+		},
+		"skins.medik.js": {
+			"scripts": [
+				"resources/main.js",
+				"resources/libraries/bootstrap.bundle.min.js"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "Medik"
+	},
+	"AutoloadClasses": {
+		"SkinMedik": "includes/SkinMedik.php",
+		"MedikTemplate": "includes/MedikTemplate.php"
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"skinname-medik": "מדיק",
+	"medik-default": "ברירת המחדל",
+	"medik-desc": "עיצוב פשוט ונקי המבוסס על ספריית Bootstrap.",
+	"medik-font-label": "גודל גופן",
+	"medik-tools-menu": "עריכה וכלים"
+}

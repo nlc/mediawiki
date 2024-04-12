@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "privzeto",
+	"medik-desc": "Preprosta in jasna preobleka na podlagi knjižnice Bootstrap",
+	"medik-font-label": "Velikost pisave",
+	"medik-tools-menu": "Urejanje in orodja"
+}

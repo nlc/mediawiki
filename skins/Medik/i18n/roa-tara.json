@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "predefinite",
+	"medik-desc": "Skin semblice e pulite ca se base sus 'a libbrerie Bootstrap.",
+	"medik-font-label": "Dimenzione d'u carattere",
+	"medik-tools-menu": "Cangiamende e struminde"
+}

@@ -1,0 +1,42 @@
+/*! Medik | desktop style */
+
+.mw-mobile-sitename {
+	display: none;
+}
+
+#mw-navbar-left {
+	padding-left: 1.75em;
+}
+
+#mw-navbar-right {
+	padding-right: 1.5em;
+}
+
+.mw-label {
+	white-space: nowrap;
+}
+
+.profile-icon {
+	display: none;
+}
+
+aside .dropdown,
+#p-namespaces span {
+	padding-right: 2em;
+}
+
+#personal-echo-icons li {
+	margin: 0 10px;
+}
+
+#toc.toc {
+	float: right;
+}
+
+#footer-icons {
+	float: right;
+}
+
+li.footer-icons {
+	padding-left: 1em;
+}

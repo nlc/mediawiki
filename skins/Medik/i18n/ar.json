@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Meno25",
+			"محمد أحمد عبد الفتاح"
+		]
+	},
+	"skinname-medik": "ميديك",
+	"medik-default": "افتراضي",
+	"medik-desc": "Skin for WikiSkripta.eu ، مشروع wiki الطبي لكلية الطب الأولى ، جامعة تشارلز (جمهورية التشيك).",
+	"medik-font-label": "حجم الخط",
+	"medik-tools-menu": "التعديل والأدوات"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "predefinite",
+	"medik-desc": "Apparentia simple e nette basate sur le bibliotheca Bootstrap.",
+	"medik-font-label": "Dimension del litteras",
+	"medik-tools-menu": "Modification e utensiles"
+}

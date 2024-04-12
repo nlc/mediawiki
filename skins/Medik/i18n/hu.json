@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hanna Tardos",
+			"Tacsipacsi"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "alapértelmezett",
+	"medik-desc": "Egyszerű és letisztult felület a Bootstrap könyvtár alapján.",
+	"medik-font-label": "Betűméret",
+	"medik-tools-menu": "Szerkesztés és eszközök"
+}

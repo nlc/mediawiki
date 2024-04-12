@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [ "Petr Kajzar" ]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "default",
+	"medik-desc": "Simple and clean skin based on the Bootstrap library.",
+	"medik-font-label": "Font size",
+	"medik-tools-menu": "Editing and tools"
+}

@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Petr Kajzar"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "výchozí",
+	"medik-desc": "Jednoduchý skin založený na knihovně Boostrap.",
+	"medik-font-label": "Velikost písma",
+	"medik-tools-menu": "Úpravy a nástroje"
+}

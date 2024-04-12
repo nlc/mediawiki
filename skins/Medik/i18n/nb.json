@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "standard",
+	"medik-desc": "Enkel eg ren drakt basert på Bootstrap-biblioteket.",
+	"medik-font-label": "Skriftstørrelse",
+	"medik-tools-menu": "Redigering og verktøy"
+}

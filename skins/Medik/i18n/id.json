@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daud I.F. Argana"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "baku",
+	"medik-desc": "Kulit sederhana dan bersih berdasarkan pustaka Bootstrap.",
+	"medik-font-label": "Ukuran huruf",
+	"medik-tools-menu": "Penyuntingan dan perkakas"
+}

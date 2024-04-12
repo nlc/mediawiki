@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Afalau",
+			"Robin Owain"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "rhagosodedig",
+	"medik-desc": "Gwedd ar gyfer WikiSkripta.eu, prosiect wici meddygol y Gyfadran Feddygaeth 1af, Prifysgol Charles (Gweriniaeth Tsiec).",
+	"medik-font-label": "Maint y ffont",
+	"medik-tools-menu": "Golygu a theclynau"
+}

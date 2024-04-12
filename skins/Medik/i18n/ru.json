@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"BerryAVGN",
+			"PlushBoy"
+		]
+	},
+	"skinname-medik": "Медик",
+	"medik-default": "по умолчанию",
+	"medik-desc": "Простая и чистая тема оформления, основанная на библиотеке Bootstrap.",
+	"medik-font-label": "Размер шрифта",
+	"medik-tools-menu": "Редактирование и инструменты"
+}

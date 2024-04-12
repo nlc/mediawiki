@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "predeterminado",
+	"medik-desc": "Aspecto sinxelo e limpo baseado na biblioteca Bootstrap.",
+	"medik-font-label": "Tamaño da letra",
+	"medik-tools-menu": "Edición e ferramentas"
+}

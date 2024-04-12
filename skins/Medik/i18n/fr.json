@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko",
+			"Wladek92"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "par défaut",
+	"medik-desc": "Habillage simple et propre basé sur la bibliothèque Bootstrap.",
+	"medik-font-label": "Taille de police",
+	"medik-tools-menu": "Modification et outils"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"GuoPC",
+			"Lakejason0"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "默认",
+	"medik-desc": "基于Bootstrap库的简单干净的皮肤。",
+	"medik-font-label": "字体大小",
+	"medik-tools-menu": "编辑与工具"
+}

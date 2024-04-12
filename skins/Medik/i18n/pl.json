@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Rail",
+			"WaldiSt"
+		]
+	},
+	"medik-default": "domyślne",
+	"medik-desc": "Prosta i czysta skórka oparta na bibliotece Bootstrap.",
+	"medik-font-label": "Rozmiar czcionki",
+	"medik-tools-menu": "Edycja i narzędzia"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga",
+			"WikiPhoenix"
+		]
+	},
+	"skinname-medik": "Medik",
+	"medik-default": "standard",
+	"medik-desc": "Enkelt och rent utseende baserat på Bootstrap-biblioteket.",
+	"medik-font-label": "Teckenstorlek",
+	"medik-tools-menu": "Redigering och verktyg"
+}
