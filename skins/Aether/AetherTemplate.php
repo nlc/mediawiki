@@ -186,35 +186,6 @@ class AetherTemplate extends BaseTemplate {
     </article>
   </main>
   <footer id="kFooter" class="footer d-print-none">
-    <section id="kFooterIncome" class="container">
-      <div id="kDonateForm">
-        <div class="center">
-          <h3>Donate to KDE <a href="https://kde.org/community/donations/index.php#money" target="_blank">Why Donate?</a></h3>
-          <form action="https://www.paypal.com/en_US/cgi-bin/webscr" method="post" onsubmit="return amount.value >= 2 || window.confirm('Your donation is smaller than 2€. This means that most of your donation\nwill end up in processing fees. Do you want to continue?');">
-             <input type="hidden" name="cmd" value="_donations">
-             <input type="hidden" name="lc" value="GB">
-             <input type="hidden" name="item_name" value="Development and communication of KDE software">
-             <input type="hidden" name="custom" value="//kde.org//donation_box">
-             <input type="hidden" name="currency_code" value="EUR">
-             <input type="hidden" name="cbt" value="Return to kde.org">
-             <input type="hidden" name="return" value="https://kde.org/community/donations/thanks_paypal">
-             <input type="hidden" name="notify_url" value="https://kde.org/community/donations/notify.php">
-             <input type="hidden" name="business" value="kde-ev-paypal@kde.org">
-             <input type="text" name="amount" value="20.00" id="donateAmountField" data-_extension-text-contrast=""> €
-             <button type="submit" id="donateSubmit" data-_extension-text-contrast="">Donate via PayPal</button>
-          </form>
-
-          <a href="https://kde.org/community/donations/others" id="otherWaysDonate" target="_blank">Other ways to donate</a>
-        </div>
-      </div>
-      <div id="kMetaStore">
-        <div class="center">
-          <h3>Visit the KDE MetaStore</h3>
-          <p>Show your love for KDE! Purchase books, mugs, apparel, and more to support KDE.</p>
-          <a href="https://kde.org/stuff/metastore" class="button">Click here to browse</a>
-       </div>
-      </div>
-    </section>
     <section id="kLinks" class="container">
       <div class="row">
         <nav class="col-sm">
