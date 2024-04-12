@@ -1932,7 +1932,7 @@ abstract class Installer {
 		try {
 			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
 			$content = new WikitextContent(
-				wfMessage( 'mainpagetext' )->inContentLanguage()->text() . "\n\n" .
+				wfMessage( 'mainpagetext' )->inContentLanguage()->text() . "\n\n" . "hello world" .
 				wfMessage( 'mainpagedocfooter' )->inContentLanguage()->text()
 			);
 

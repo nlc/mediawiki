@@ -128,5 +128,14 @@ $wgDefaultSkin = 'Medik';
 # End of automatically generated settings.
 # Add more configuration options below.
 
+# Load skins
 wfLoadSkin( 'Aether' );
 wfLoadSkin( 'Medik' );
+
+# Restrict edit access to registered users only
+$wgGroupPermissions['*']['edit'] = false;
+# $wgGroupPermissions['user']['edit'] = true;
+# $wgGroupPermissions['sysop']['edit'] = true;
+
+# Restrict account creation to sysops only
+$wgGroupPermissions['*']['createaccount'] = false;
