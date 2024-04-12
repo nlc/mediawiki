@@ -1,1 +1,0 @@
-The contact info has been moved to [the README file](../README.md).
