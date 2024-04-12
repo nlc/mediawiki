@@ -57,11 +57,12 @@ $wgEnotifWatchlist = false; # UPO
 $wgEmailAuthentication = true;
 
 ## Database settings
-$wgDBtype = 'postgres';
-$wgDBserver = 'c9pbiquf6p6pfn.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com';
-$wgDBname = 'd6im80i7oj1j4j';
-$wgDBuser = 'u4vl3nq18t334a';
-$wgDBpassword = 'p96f8d8112eb78032721a6e35287767e63137df66b6623c356bc295fb398124b4';
+$url = parse_url(getenv("DATABASE_URL"));
+$wgDBtype = "mysql";
+$wgDBserver = $url["host"];
+$wgDBname = substr($url["path"], 1);
+$wgDBuser = $url["user"];
+$wgDBpassword = $url["pass"];
 
 # Postgres specific settings
 $wgDBport = "5432";
@@ -101,14 +102,14 @@ $wgLocaltimezone = 'UTC';
 ## be publicly accessible from the web.
 #$wgCacheDirectory = "$IP/cache";
 
-$wgSecretKey = '48f3a6a4fcbe51e8fa53287870790934c4356cb7451ccce3883f14cecf07cf49';
+$wgSecretKey = getenv("SECRET_KEY");
 
 # Changing this will log out all existing sessions.
 $wgAuthenticationTokenVersion = '1';
 
 # Site upgrade key. Must be set to a string (default provided) to turn on the
 # web installer while LocalSettings.php is in place
-$wgUpgradeKey = 'd0860e42f7c55619';
+$wgUpgradeKey = getenv("UPGRADE_KEY");
 
 ## For attaching licensing metadata to pages, and displaying an
 ## appropriate copyright notice / icon. GNU Free Documentation
